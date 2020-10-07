@@ -27,36 +27,60 @@
         <br>
         <br>
     
-         <div class = "container" id = "create-todo-structure">
-            <form id = "create-todo">    
-                <div class="input-group flex-nowrap">
-                    <div class="input-group-prepend">
-                    <button class="btn btn-primary btn-sm">+</button>
-                    <span class="input-group-text" id="addon-wrapping">Add Task</span>
-                    <span class="input-group-text" id="addon-wrapping">  
-                        <select name="prior">
-                        <option value = '0' id="C">Priority</option>
-                        <option value = '1' id="C">1</option>
-                        <option value = '2' id="UH">2</option>
-                        <option value = '3' id="VH">3</option>
-                        <option value = '4' id="H">4</option>
-                        <option value = '5' id="UM">5</option>
-                        <option value = '6' id="VM">6</option>
-                        <option value = '7' id="M">7</option>
-                        <option value = '8' id="L">8</option>
-                        </select>
-                    </span>
-                    </div>
-                    <input name="createTodo" type="text" class="form-control" placeholder="Enter Task Details" aria-label="Username" aria-describedby="addon-wrapping">      
+        <div class = "container" id = "create-todo-structure">
+        <form id = "create-todo">    
+            <div class="input-group flex-nowrap">
+                <div class="input-group-prepend">
+                <button class="btn btn-primary btn-sm">+</button>
+                <span class="input-group-text" id="addon-wrapping">Add Task</span>
+                <span class="input-group-text" id="addon-wrapping">  
+                    <select name="prior">
+                    <option value = '0' id="C">Priority</option>
+                    <option value = '1' id="C">1</option>
+                    <option value = '2' id="UH">2</option>
+                    <option value = '3' id="VH">3</option>
+                    <option value = '4' id="H">4</option>
+                    <option value = '5' id="UM">5</option>
+                    <option value = '6' id="VM">6</option>
+                    <option value = '7' id="M">7</option>
+                    <option value = '8' id="L">8</option>
+                    </select>
+                </span>
                 </div>
-                <br>
-                <br>
-            </form> 
-           </div>
+                <input name="createTodo" type="text" class="form-control" placeholder="Enter Task Details" aria-label="Username" aria-describedby="addon-wrapping">      
+            </div>
+            <br>
+            <br>
+        </form> 
+        </div>
+    
+        <br>
+    
+        <div class = "container" id = "main-structure">
+            <div class = "custom-container row">
+                
+                <div class="input-group flex-nowrap col-sm-12 col-md-6">
+                    <div class="input-group-prepend">
+                    <span class="input-group-text" id="addon-wrapping">Search &nbsp;</span>
+                    <p>&nbsp;</p> 
+                    <!-- <span class="input-group-text" id="addon-wrapping">Name &nbsp;</span> -->
+                    </div>
+                    <input id = "search-todos" name="searchTodo" type="text" class="form-control" placeholder="By Text (Ex: create app for Ken & Melina...)" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+                
+                <div class="input-group flex-nowrap col-sm-12 col-md-6">
+                    <div class="input-group-prepend">
+                    <!-- <span class="input-group-text" id="addon-wrapping">Priority</span> -->
+                    </div>
+                    <input id = "pr-search" name="pSearch" type="text" class="form-control" placeholder="By Priority (Ex: 1, 2, 3...)" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+                
+              </div>
+         </div>
 
     
-        <div class="footer">
-        <p>Developed by Akshay Goyal for Ken & Milena @OpsLevel</p>
-        </div>
+         <div class="footer">
+         <p>Developed by Akshay Goyal for Ken & Milena @OpsLevel</p>
+         </div>
 </body>
 </html>
