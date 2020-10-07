@@ -103,3 +103,22 @@ const removeTodo = function (id) {
      
      return todos
 }
+
+// Function 7: Render Todos Priortites
+const renderPTodos = function (todos, filters) {
+    const PfilteredTodos = todos.filter(function (todo) {
+        const matchTodos = todo.todo_priority.toLowerCase().includes(filters.searchText.toLowerCase())
+        return matchTodos
+    })
+
+    const incompletedPriorityTodos = PfilteredTodos.filter(function (todo) {
+        return !todo.todo_complete_status
+    })
+
+    // Fetch the HTML Element and set its value to an empty String
+    document.querySelector('#show-todo').innerHTML = ''
+    document.querySelector('#show-todo').appendChild(generateSummaryDOM(incompletedPriorityTodos))
+    PfilteredTodos.forEach(function (todo) {
+        document.querySelector('#show-todo').appendChild(generateTodoDOM(todo))
+    })
+}
