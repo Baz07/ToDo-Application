@@ -7,4 +7,4 @@
 #### 4. Search tasks using task text or priorities.
 
 #### Website Interface
-![Todo_Website.jpg](Todo_Website.JPG)
+![Todo_Website.png](Todo_Website.PNG)
