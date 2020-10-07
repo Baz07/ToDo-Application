@@ -1,6 +1,10 @@
 //Initialize Todo Array
 const todos = getSavedNotes()
 
+//Filter Object
+const filters = {
+    searchText: '',
+} 
 
 //When user is creating a new Todo
 document.querySelector('#create-todo').addEventListener('submit', function(e){
