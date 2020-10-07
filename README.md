@@ -8,4 +8,4 @@
 
 #### Website Interface
 
-![interface.jpg](interface.JPG)
+![Web Interface](interface.jpg)
