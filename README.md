@@ -1,7 +1,7 @@
 # Todo-Application
 
-## Features:
-#### Add a Todo Task and its priority.
-#### Delete a Todo Task.
-#### List all tasks.
-#### Search tasks using task text or priorities.
+### Features:
+#### 1. Add a Todo Task and its priority.
+#### 2. Delete a Todo Task.
+#### 3. List all tasks.
+#### 4. Search tasks using task text or priorities.
