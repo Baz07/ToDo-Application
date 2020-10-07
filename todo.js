@@ -37,3 +37,9 @@ document.querySelector('#search-todos').addEventListener('input', function(e) {
     filters.searchText = e.target.value
     renderTodos(todos, filters)
 })
+
+// When user is searching via "Priority"
+document.querySelector('#pr-search').addEventListener('input', function(e) {
+    filters.searchText = e.target.value
+    renderPTodos(todos, filters)
+})
