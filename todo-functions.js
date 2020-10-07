@@ -8,3 +8,8 @@ const getSavedNotes = function () {
         return []
     }
 }
+
+// Function 2: Save Todos in Local Storage
+const saveTodo = function (todos) {
+    localStorage.setItem('todos', JSON.stringify(todos))
+}
