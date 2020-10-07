@@ -22,6 +22,34 @@
         <div class = "container" id = "main-heading">
             <h1>To-Do Collector</h1>
         </div>
+        
+         <div class = "container" id = "create-todo-structure">
+            <form id = "create-todo">    
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                    <button class="btn btn-primary btn-sm">+</button>
+                    <span class="input-group-text" id="addon-wrapping">Add Task</span>
+                    <span class="input-group-text" id="addon-wrapping">  
+                        <select name="prior">
+                        <option value = '0' id="C">Priority</option>
+                        <option value = '1' id="C">1</option>
+                        <option value = '2' id="UH">2</option>
+                        <option value = '3' id="VH">3</option>
+                        <option value = '4' id="H">4</option>
+                        <option value = '5' id="UM">5</option>
+                        <option value = '6' id="VM">6</option>
+                        <option value = '7' id="M">7</option>
+                        <option value = '8' id="L">8</option>
+                        </select>
+                    </span>
+                    </div>
+                    <input name="createTodo" type="text" class="form-control" placeholder="Enter Task Details" aria-label="Username" aria-describedby="addon-wrapping">      
+                </div>
+                <br>
+                <br>
+            </form> 
+           </div>
+
     
         <div class="footer">
         <p>Developed by Akshay Goyal for Ken & Milena @OpsLevel</p>
