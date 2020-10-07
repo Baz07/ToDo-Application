@@ -6,6 +6,9 @@ const filters = {
     searchText: '',
 } 
 
+// Need to Render Initially as well in order to show how many Todos are left!
+renderTodos(todos, filters)
+
 //When user is creating a new Todo
 document.querySelector('#create-todo').addEventListener('submit', function(e){
     //Prevent Default Action
