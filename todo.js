@@ -31,3 +31,9 @@ document.querySelector('#create-todo').addEventListener('submit', function(e){
     e.target.elements.createTodo.value = ""
 
 })
+
+// When user is searching via "Name"
+document.querySelector('#search-todos').addEventListener('input', function(e) {
+    filters.searchText = e.target.value
+    renderTodos(todos, filters)
+})
