@@ -1,1 +1,62 @@
+body{
+    /* background-image: url(../static/gigvid.gif); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#myVid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+#main-heading{
+    color: #f6f6f6;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+
+}
+
+#create-todo-structure{
+    /* background: #7f7f7f;
+    background: rgba(0,0,0,0.5); */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative; 
+    
+}
+
+#main-structure{
+    position: relative
+}
+
+p{
+    color: white;
+}
+
+#show-todo{
+    color: white;
+    background: #7f7f7f;
+    background: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background: #7f7f7f;
+    background: rgba(0,0,0,0.5);
+    font-style: italic;
+    position: relative;
+    height: -200px;
+    margin-top: 300px;
+  }
 
