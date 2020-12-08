@@ -1,6 +1,6 @@
 # TO-DO APPLICATION
 
-[! Go to APP! Click Here! ](https://youthful-bartik-742f7a.netlify.app)
+[Go to App! Click Here! ](https://youthful-bartik-742f7a.netlify.app)
 
 ### Features:
 #### 1. Add a Todo Task and its priority.
